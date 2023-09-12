@@ -1,0 +1,163 @@
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --principalTxt: #b61531;
+    --corSecundaria: #B10EC2;
+    --corTerciaria: #C2390E;
+}
+
+header {
+    padding: 2em;
+    text-align: center;
+    color: var(--principalTxt);
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+section {
+    padding: 2em;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+span {
+    text-align: justify;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagens {
+    /* width: 300px; */
+    max-width: 300px;
+    margin: auto;
+}
+
+.inverter {
+    transform: scaleX(-1);
+}
+
+ul {
+    margin-top: 1em;
+}
+
+ul, li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+
+
+/* compras */
+
+/* Estilos para a seção de compras */
+#compras {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+#compras h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#compras p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#compras ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#compras li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+#compras h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#compras p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#compras button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#compras button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer a {
+    text-decoration: underline;
+    color: rgb(116, 255, 255);
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: .3em;
+    text-align: center;
+}
