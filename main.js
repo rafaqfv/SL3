@@ -1,6 +1,4 @@
 ScrollReveal({ reset: true });
 
-ScrollReveal().reveal('header');
-ScrollReveal().reveal('#descricao');
-ScrollReveal().reveal('#cabelo');
-ScrollReveal().reveal('#compras');
+ScrollReveal().reveal('.licapa', { delay: 200 });
+ScrollReveal().reveal('.imagens', { delay: 100 });
